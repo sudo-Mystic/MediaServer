@@ -8,7 +8,7 @@ COPY . /src
 
 WORKDIR /src
 
-# Install dependencies
+# Install dependencie
 RUN  npm install
 
 EXPOSE 3500
